@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a087b6-178a-40b1-9c47-9d212ac1f169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facebook/facebook.graphml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facebook/facebook/facebook_combined.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facebook/facebook_graph_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs/polblog_analysis_networkx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs_snap/ccf.cluster_plot.plt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs_snap/ccf.cluster_plot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs_snap/ccf.cluster_plot.tab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs_snap/polblog_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs_snap/polblogs.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs_snap/polblogs.graph" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polblogs_snap/polblogs.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polbooks/polbooks.gml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polbooks/polbooks.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polbooks/polbooks_analysis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook_combined.txt/facebook_combined.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polblogs/ccf.cluster_plot.plt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polblogs/ccf.cluster_plot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polblogs/ccf.cluster_plot.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polblogs/polblog_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/polblogs/polblogs.graph" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +55,12 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm_diaries\AnimeshWorks\codesAM\polblogs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.polblog_analysis_networkx">
     <configuration name="facebook_graph_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codesAM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -67,8 +83,77 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="polblog_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codesAM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polblogs_snap" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polblogs_snap/polblog_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="polblog_analysis_networkx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codesAM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polblogs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polblogs/polblog_analysis_networkx.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="polbooks_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codesAM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polbooks" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polbooks/polbooks_analysis.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.polblog_analysis_networkx" />
+        <item itemvalue="Python.polblog_analysis" />
+        <item itemvalue="Python.polbooks_analysis" />
         <item itemvalue="Python.facebook_graph_analysis" />
       </list>
     </recent_temporary>
@@ -87,8 +172,17 @@
       <workItem from="1583493778394" duration="760000" />
       <workItem from="1583495386018" duration="115000" />
       <workItem from="1583496321954" duration="6660000" />
-      <workItem from="1583517283339" duration="10070000" />
+      <workItem from="1583517283339" duration="11010000" />
+      <workItem from="1583583990158" duration="6881000" />
     </task>
+    <task id="LOCAL-00001" summary="Completed Facebook Database">
+      <created>1583530413852</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583530413852</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,8 +192,14 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="Completed Facebook Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Facebook Database" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1583530412008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583530412008" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1583492410879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -108,38 +208,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="505" y="373" width="585" height="248" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583493826344" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583530270261">
+    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1583591448588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583530270261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583530270261">
+    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583591448588" />
+    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1583591448588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583530270261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583530270261">
+    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583591448588" />
+    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1583591448588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583530270261" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583530270261">
+    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583591448588" />
+    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1583591448588">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583530270261" />
+    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583591448588" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1583527582997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583527582997" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583496712002">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583530427931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583496712002" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583530427931" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583492066503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583492066503" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1583517293307">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1583584079553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583517293307" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583584079553" />
     <state x="790" y="314" key="svn.repositoryBrowser" timestamp="1583496591433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,5 +247,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/codesAM$facebook_graph_analysis.coverage" NAME="facebook_graph_analysis Coverage Results" MODIFIED="1583530270254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facebook" />
+    <SUITE FILE_PATH="coverage/codesAM$polblog_analysis.coverage" NAME="polblog_analysis Coverage Results" MODIFIED="1583589942079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs_snap" />
+    <SUITE FILE_PATH="coverage/codesAM$polbooks_analysis.coverage" NAME="polbooks_analysis Coverage Results" MODIFIED="1583587487031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polbooks" />
+    <SUITE FILE_PATH="coverage/codesAM$polblog_analysis_networkx.coverage" NAME="polblog_analysis_networkx Coverage Results" MODIFIED="1583591448582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs" />
   </component>
 </project>
