@@ -145,7 +145,7 @@ u4.test
 u5.base
 u5.test
 
-ua.base    -- The data sets ua.base, ua.test, ub.base, and ub.test
+ua.base    -- The data sets ua.base, ua.test, ub.base, and ub.t est
 ua.test       split the u data into a training set and a test set with
 ub.base       exactly 10 ratings per user in the test set.  The sets
 ub.test       ua.test and ub.test are disjoint.  These data sets can
