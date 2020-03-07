@@ -35,7 +35,6 @@ file.close()
 node_decs = dict([('l', []), ('c', [])])
 
 for c, node in enumerate(G.nodes(data=True)):
-    print(node)
     node_decs[node[1]['value']].append(node[0])
 
 print("Number of nodes " + str(G.number_of_nodes()))
