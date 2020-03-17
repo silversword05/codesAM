@@ -1,7 +1,8 @@
-import networkx as nx
 import collections
-import matplotlib.pyplot as plt
+
 import matplotlib
+import matplotlib.pyplot as plt
+import networkx as nx
 
 matplotlib.use('TkAgg')
 plt.style.use('seaborn-deep')
@@ -74,7 +75,7 @@ print("Network Density " + str(nx.density(G)))
 print("Degree Associativity Coefficient " + str(nx.degree_assortativity_coefficient(G)))
 
 
-def calculate_clustering_coefficients(feat, feat_ids):
+def calculate_clustering_coefficients_and_degree(feat, feat_ids):
     node_wrt_feat_ids = dict([(x, []) for x in feat_ids])
 
     for node in G.nodes:
@@ -82,42 +83,37 @@ def calculate_clustering_coefficients(feat, feat_ids):
             node_wrt_feat_ids[G.nodes[node][feat]].append(node)
 
     for c, x in enumerate(feat_ids):
-        nds = [p for p, y in G.nodes(data=True) if feat in y and y[feat] == x]
+        print("Number of nodes of feature " + feat + " of id " + str(x) + " is " + str(len(node_wrt_feat_ids[x])))
+
+        nds = [p for p in node_wrt_feat_ids[x]]
         data = nx.clustering(G, nds)
-        clustering_coefficients_count = collections.Counter([data[x] for x in nds])
+        clustering_coefficients_count = collections.Counter([round(data[x], 2) for x in nds])
 
         print("CLUSTERING COEFFICIENT : " + feat + " " + str(x), end=' ')
         print(clustering_coefficients_count)
-        clustering_coefficients, cnt = zip(*sorted(clustering_coefficients_count.most_common(), key=lambda x : x[0]))
+        clustering_coefficients, cnt = zip(*sorted(clustering_coefficients_count.most_common(), key=lambda x: x[0]))
         plt.figure(str(c) + 'clustering coefficients')
-        plt.plot(clustering_coefficients, cnt, color='b')
+        plt.loglog(clustering_coefficients, cnt, color='b')
         plt.title("Clustering Coefficients " + feat + " " + str(x))
         plt.ylabel("Count")
         plt.xlabel("Clustering Coefficient")
 
-
-def calculate_degree_histogram(feat, feat_ids):
-    node_wrt_feat_ids = dict([(x, []) for x in feat_ids])
-
-    for node in G.nodes:
-        if feat in G.nodes[node] and G.nodes[node][feat] in feat_ids:
-            node_wrt_feat_ids[G.nodes[node][feat]].append(node)
-
-    for c, x in enumerate(feat_ids):
         degree_sequence = sorted([d for n, d in G.degree(node_wrt_feat_ids[x])], reverse=True)
         degree_count = collections.Counter(degree_sequence)
         print("DEGREE : " + feat + " " + str(x), end=' ')
         print(degree_count)
-        deg, cnt = zip(*sorted(degree_count.items(), key = lambda x : x[0] ))
+        deg, cnt = zip(*sorted(degree_count.items(), key=lambda x: x[0]))
         plt.figure(str(c) + " degree")
-        plt.plot(deg, cnt, color='b')
+        plt.loglog(deg, cnt, color='b')
         plt.title("Degree " + feat + " " + str(x))
         plt.ylabel("Count")
         plt.xlabel("Degree")
 
+        associativity = nx.degree_assortativity_coefficient(G, nodes=nds)
+        print("Associativity of feature " + feat + " of feature id " + str(x) + " is " + str(associativity))
+
 
 # Mention the feat name and the corresponding ids of the annonymized geature
-calculate_degree_histogram('gender', [77, 78])
-calculate_clustering_coefficients('gender', [77, 78])
+calculate_clustering_coefficients_and_degree('gender', [77, 78])
 
 plt.show()

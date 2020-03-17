@@ -2,11 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75a087b6-178a-40b1-9c47-9d212ac1f169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml100k_analysis_networkx.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-1m/ml-1m/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-1m/ml-1m/movies.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-1m/ml-1m/ratings.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-1m/ml-1m/users.data" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ml-1m/ml_1m_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml-100k/README" beforeDir="false" afterPath="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml-100k/README" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml-100k_analysis/plotHisto.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook/facebook_graph_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebook/facebook_graph_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml100k_analysis_networkx.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml100k_analysis_networkx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polblogs/polblog_analysis_networkx.py" beforeDir="false" afterPath="$PROJECT_DIR$/polblogs/polblog_analysis_networkx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/polbooks/polbooks_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/polbooks/polbooks_analysis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +54,7 @@
       <recent name="D:\pycharm_diaries\AnimeshWorks\codesAM\polblogs" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.ml100k_analysis_networkx">
+  <component name="RunManager" selected="Python.polbooks_analysis">
     <configuration name="facebook_graph_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codesAM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,7 +99,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="polblog_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="ml_1m_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codesAM" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,12 +107,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/polblogs_snap" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml-1m" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/polblogs_snap/polblog_analysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml-1m/ml_1m_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ml100k_analysis_networkx" />
-        <item itemvalue="Python.polblog_analysis_networkx" />
-        <item itemvalue="Python.polblog_analysis" />
         <item itemvalue="Python.polbooks_analysis" />
+        <item itemvalue="Python.polblog_analysis_networkx" />
         <item itemvalue="Python.facebook_graph_analysis" />
+        <item itemvalue="Python.ml100k_analysis_networkx" />
+        <item itemvalue="Python.ml_1m_analysis" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +192,12 @@
       <workItem from="1583517283339" duration="11010000" />
       <workItem from="1583583990158" duration="9905000" />
       <workItem from="1583596156818" duration="27000" />
-      <workItem from="1583596195868" duration="5519000" />
+      <workItem from="1583596195868" duration="5767000" />
+      <workItem from="1583669198157" duration="120000" />
+      <workItem from="1584386855820" duration="2316000" />
+      <workItem from="1584449607593" duration="5831000" />
+      <workItem from="1584460825852" duration="5401000" />
+      <workItem from="1584469396339" duration="3178000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Facebook Database">
       <created>1583530413852</created>
@@ -209,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583591555089</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed Mobilens dataset Database">
+      <created>1583603303978</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583603303978</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,17 +239,22 @@
     </ignored-roots>
     <MESSAGE value="Completed Facebook Database" />
     <MESSAGE value="Completed Polblogs and Polbooks Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Polblogs and Polbooks Database" />
+    <MESSAGE value="Completed Mobilens dataset Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Mobilens dataset Database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="181" key="#Plugins" timestamp="1583596181560">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="181" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1583596181560" />
-    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1583591554269">
+    <state x="704" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584452121853">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583591554269" />
+    <state x="704" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584452121853" />
+    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1584472618053">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584472618053" />
     <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1583492410879">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -240,48 +263,65 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="505" y="373" width="585" height="248" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583493826344" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1583603144506">
+    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1584472618068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583603144506" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1583603144506">
+    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584472618068" />
+    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1584472618068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583603144506" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1583603144506">
+    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584472618068" />
+    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1584472618065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583603144506" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1583603144506">
+    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584472618065" />
+    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1584472618068">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583603144506" />
+    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584472618068" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584386875435">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875435" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584386875434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875434" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584386875434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875434" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584386875434">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875434" />
     <state x="463" y="165" key="SettingsEditor" timestamp="1583527582997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583527582997" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583591563063">
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1583603312833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583591563063" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583603312833" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583492066503">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583492066503" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1583596196640">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584469398182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583596196640" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584469398182" />
     <state x="790" y="314" key="svn.repositoryBrowser" timestamp="1583496591433">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="314" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1583496591433" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/codesAM$facebook_graph_analysis.coverage" NAME="facebook_graph_analysis Coverage Results" MODIFIED="1583530270254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facebook" />
+    <SUITE FILE_PATH="coverage/codesAM$facebook_graph_analysis.coverage" NAME="facebook_graph_analysis Coverage Results" MODIFIED="1584471427439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facebook" />
+    <SUITE FILE_PATH="coverage/codesAM$ml_1m_analysis.coverage" NAME="ml_1m_analysis Coverage Results" MODIFIED="1584464250907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml-1m" />
     <SUITE FILE_PATH="coverage/codesAM$polblog_analysis.coverage" NAME="polblog_analysis Coverage Results" MODIFIED="1583589942079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs_snap" />
-    <SUITE FILE_PATH="coverage/codesAM$ml100k_analysis_networkx.coverage" NAME="ml100k_analysis_networkx Coverage Results" MODIFIED="1583603144500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml-100k_analysis/ml-100k" />
-    <SUITE FILE_PATH="coverage/codesAM$polbooks_analysis.coverage" NAME="polbooks_analysis Coverage Results" MODIFIED="1583587487031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polbooks" />
-    <SUITE FILE_PATH="coverage/codesAM$polblog_analysis_networkx.coverage" NAME="polblog_analysis_networkx Coverage Results" MODIFIED="1583591539854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs" />
+    <SUITE FILE_PATH="coverage/codesAM$ml100k_analysis_networkx.coverage" NAME="ml100k_analysis_networkx Coverage Results" MODIFIED="1584470683693" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml-100k_analysis/ml-100k" />
+    <SUITE FILE_PATH="coverage/codesAM$polblog_analysis_networkx.coverage" NAME="polblog_analysis_networkx Coverage Results" MODIFIED="1584471690586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs" />
+    <SUITE FILE_PATH="coverage/codesAM$polbooks_analysis.coverage" NAME="polbooks_analysis Coverage Results" MODIFIED="1584472282563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polbooks" />
   </component>
 </project>
