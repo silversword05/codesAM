@@ -96,4 +96,14 @@ def calculate_clustering_coefficients_and_degree(feat, feat_ids):
 
 calculate_clustering_coefficients_and_degree('gender', ['M', 'F'])
 
+# node2vec = Node2Vec(G, dimensions=64, walk_length=30, num_walks=200, workers=1)
+# model = node2vec.fit(window=10, min_count=1, batch_words=4)
+# player_nodes = [x for x in model.wv.vocab if len(x) > 3]
+# embeddings = np.array([model.wv[x] for x in player_nodes])
+# tsne = TSNE(n_components=2, random_state=7, perplexity=15)
+# embeddings_2d = tsne.fit_transform(embeddings)
+# figure = plt.figure(figsize=(11, 9))
+# ax = figure.add_subplot(111)
+# ax.scatter(embeddings_2d[:, 0], embeddings_2d[:, 1])
+
 plt.show()

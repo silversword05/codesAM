@@ -52,17 +52,18 @@ for i in range(len(feat_name_file_list)):
         lin = x.strip('\n').split(' ')
         nid = int(lin[0])
         for p, val in enumerate(lin[1:]):
-            if int(val) == 1:
+            if int(val) == 1:  # and feat_name_list[p][0].__contains__('gender'):
                 G.nodes[nid][feat_name_list[p][0]] = feat_name_list[p][1]
     feat_file.close()
 
     ego_feat_file = open(ego_feat_file_list[i])
     lin = ego_feat_file.readline().strip('\n').split(' ')
     for p, val in enumerate(lin):
-        if val == 1:
+        if val == 1:  # and feat_name_list[p][0].__contains__('gender'):
             G.nodes[ego_nds_id[i]][feat_name_list[p][0]] = feat_name_list[p][1]
 
 nx.write_graphml(G, 'facebook.graphml')
+nx.write_edgelist(G, 'facebook.edgelist', data=False)
 
 print("Anonymize Ids")
 for x in feat_id_dics.keys():
