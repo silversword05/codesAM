@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="75a087b6-178a-40b1-9c47-9d212ac1f169" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Fairwalk/facebook.edgelist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fairwalk/facebook.graphml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fairwalk/facebook_fair_walk.emb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fairwalk/facebook_rand_walk.emb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fairwalk/failwalk_implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fairwalk/random_forest_implementation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fairwalk/visualize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/facebook/facebook.edgelist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fairwalk/random_forest_implementation_parallel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codesAM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codesAM.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/facebook/facebook_graph_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebook/facebook_graph_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml100k_analysis_networkx.py" beforeDir="false" afterPath="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml100k_analysis_networkx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fairwalk/facebook_fair_walk.emb" beforeDir="false" afterPath="$PROJECT_DIR$/Fairwalk/facebook_fair_walk.emb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Fairwalk/facebook_rand_walk.emb" beforeDir="false" afterPath="$PROJECT_DIR$/Fairwalk/facebook_rand_walk.emb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +55,17 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -49,25 +74,34 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="4b8e58db-61de-4070-9326-a894f175d4f7" />
   <component name="ProjectId" id="1Ykemz9hREEQOncMGre0axokaP8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Fairwalk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SkipGramScratch" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="http.proxy" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="codesAM" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="codesAM" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -77,7 +111,7 @@
       <recent name="D:\pycharm_diaries\AnimeshWorks\codesAM\Fairwalk" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.random_forest_implementation">
+  <component name="RunManager" selected="Python.random_forest_implementation_parallel">
     <configuration name="facebook_graph_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codesAM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -122,28 +156,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ml100k_analysis_networkx" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="codesAM" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ml-100k_analysis/ml-100k" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ml-100k_analysis/ml-100k/ml100k_analysis_networkx.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="random_forest_implementation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="codesAM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,6 +170,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fairwalk/random_forest_implementation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="random_forest_implementation_parallel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="codesAM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Fairwalk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Fairwalk/random_forest_implementation_parallel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -190,14 +224,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random_forest_implementation_parallel" />
         <item itemvalue="Python.random_forest_implementation" />
-        <item itemvalue="Python.visualize" />
         <item itemvalue="Python.failwalk_implementation" />
+        <item itemvalue="Python.visualize" />
         <item itemvalue="Python.facebook_graph_analysis" />
-        <item itemvalue="Python.ml100k_analysis_networkx" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -226,7 +261,16 @@
       <workItem from="1585120007083" duration="58000" />
       <workItem from="1585126876293" duration="91000" />
       <workItem from="1585248786201" duration="5705000" />
-      <workItem from="1585254605123" duration="7930000" />
+      <workItem from="1585254605123" duration="8004000" />
+      <workItem from="1585313262293" duration="615000" />
+      <workItem from="1585340931325" duration="8000" />
+      <workItem from="1596556471048" duration="1740000" />
+      <workItem from="1596567327658" duration="2256000" />
+      <workItem from="1596612564052" duration="9000" />
+      <workItem from="1596621635084" duration="15000" />
+      <workItem from="1596639435688" duration="1202000" />
+      <workItem from="1596663357207" duration="668000" />
+      <workItem from="1596745096213" duration="8371000" />
     </task>
     <task id="LOCAL-00001" summary="Completed Facebook Database">
       <created>1583530413852</created>
@@ -263,11 +307,30 @@
       <option name="project" value="LOCAL" />
       <updated>1584472718391</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added Fairwalk code partially">
+      <created>1585263928078</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585263928078</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -277,98 +340,52 @@
     <MESSAGE value="Completed Polblogs and Polbooks Database" />
     <MESSAGE value="Completed Mobilens dataset Database" />
     <MESSAGE value="Added log log, code of 1m Movie lens dataset and changed other codes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added log log, code of 1m Movie lens dataset and changed other codes." />
+    <MESSAGE value="Added Fairwalk code partially" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Fairwalk code partially" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="181" key="#Plugins" timestamp="1583596181560">
+    <state x="586" y="201" key="#Inspections" timestamp="1596557036574">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="181" key="#Plugins/0.0.1920.1040@0.0.1920.1040" timestamp="1583596181560" />
-    <state x="704" y="330" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585249769095">
+    <state x="586" y="201" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1596557036574" />
+    <state x="740" y="277" key="FileChooserDialogImpl" timestamp="1596640394395">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="704" y="330" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585249769095" />
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585249754574">
+    <state x="740" y="277" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596640394395" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1596753693730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585249754574" />
-    <state x="598" y="118" key="CommitChangelistDialog2" timestamp="1584472714633">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596753693730" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1596753693730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="598" y="118" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584472714633" />
-    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1585255171203">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596753693730" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1596753693730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585255171203" />
-    <state x="505" y="373" width="585" height="248" key="Github.ShareDialog" timestamp="1583493826344">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596753693730" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1596753693730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="505" y="373" width="585" height="248" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583493826344" />
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom" timestamp="1585263875240">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596753693730" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1596747390856">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585263875240" />
-    <state width="1877" height="208" key="GridCell.Tab.0.center" timestamp="1585263875240">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585263875240" />
-    <state width="1877" height="208" key="GridCell.Tab.0.left" timestamp="1585263875240">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585263875240" />
-    <state width="1877" height="208" key="GridCell.Tab.0.right" timestamp="1585263875240">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="208" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585263875240" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584386875435">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875435" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584386875434">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875434" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584386875434">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875434" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584386875434">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584386875434" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1585263901995">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585263901995" />
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1584472726581">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584472726581" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1583492066503">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583492066503" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1585254612462">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585254612462" />
-    <state x="790" y="314" key="svn.repositoryBrowser" timestamp="1583496591433">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="790" y="314" key="svn.repositoryBrowser/0.0.1920.1040@0.0.1920.1040" timestamp="1583496591433" />
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1596747390856" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/codesAM$facebook_graph_analysis.coverage" NAME="facebook_graph_analysis Coverage Results" MODIFIED="1585249814604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facebook" />
-    <SUITE FILE_PATH="coverage/codesAM$failwalk_implementation.coverage" NAME="failwalk_implementation Coverage Results" MODIFIED="1585254657993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fairwalk" />
-    <SUITE FILE_PATH="coverage/codesAM$ml_1m_analysis.coverage" NAME="ml_1m_analysis Coverage Results" MODIFIED="1584464250907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml-1m" />
+    <SUITE FILE_PATH="coverage/codesAM$random_forest_implementation.coverage" NAME="random_forest_implementation Coverage Results" MODIFIED="1596745479648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fairwalk" />
     <SUITE FILE_PATH="coverage/codesAM$polblog_analysis.coverage" NAME="polblog_analysis Coverage Results" MODIFIED="1583589942079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs_snap" />
-    <SUITE FILE_PATH="coverage/codesAM$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1585254966059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fairwalk" />
-    <SUITE FILE_PATH="coverage/codesAM$ml100k_analysis_networkx.coverage" NAME="ml100k_analysis_networkx Coverage Results" MODIFIED="1584475708901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml-100k_analysis/ml-100k" />
-    <SUITE FILE_PATH="coverage/codesAM$polblog_analysis_networkx.coverage" NAME="polblog_analysis_networkx Coverage Results" MODIFIED="1584471690586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs" />
+    <SUITE FILE_PATH="coverage/codesAM$ml_1m_analysis.coverage" NAME="ml_1m_analysis Coverage Results" MODIFIED="1584464250907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml-1m" />
     <SUITE FILE_PATH="coverage/codesAM$polbooks_analysis.coverage" NAME="polbooks_analysis Coverage Results" MODIFIED="1584472282563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polbooks" />
-    <SUITE FILE_PATH="coverage/codesAM$random_forest_implementation.coverage" NAME="random_forest_implementation Coverage Results" MODIFIED="1585263567910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fairwalk" />
+    <SUITE FILE_PATH="coverage/codesAM$failwalk_implementation.coverage" NAME="failwalk_implementation Coverage Results" MODIFIED="1596557084634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fairwalk" />
+    <SUITE FILE_PATH="coverage/codesAM$polblog_analysis_networkx.coverage" NAME="polblog_analysis_networkx Coverage Results" MODIFIED="1584471690586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/polblogs" />
+    <SUITE FILE_PATH="coverage/codesAM$ml100k_analysis_networkx.coverage" NAME="ml100k_analysis_networkx Coverage Results" MODIFIED="1584475708901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ml-100k_analysis/ml-100k" />
+    <SUITE FILE_PATH="coverage/codesAM$visualize.coverage" NAME="visualize Coverage Results" MODIFIED="1596556868530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fairwalk" />
+    <SUITE FILE_PATH="coverage/codesAM$random_forest_implementation_parallel.coverage" NAME="random_forest_implementation_parallel Coverage Results" MODIFIED="1596753693725" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fairwalk" />
+    <SUITE FILE_PATH="coverage/codesAM$facebook_graph_analysis.coverage" NAME="facebook_graph_analysis Coverage Results" MODIFIED="1585249814604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/facebook" />
   </component>
 </project>
